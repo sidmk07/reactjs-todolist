@@ -1,5 +1,11 @@
 import React from 'react'
 
+/**
+ * A function component representing a todo card.
+ *
+ * @param {Object} props - The props object containing children, handleDeleteTodo, index, and handleEditTodo.
+ * @return {JSX.Element} The JSX element representing the todo card.
+ */
 export default function TodoCard(props) {
     const { children, handleDeleteTodo, index, handleEditTodo } = props
     return (

@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
 
+/**
+ * A function component representing an input field for adding todos.
+ *
+ * @param {Object} props - The props object containing handleAddTodos, todoValue, and setTodoValue.
+ * @return {JSX.Element} The JSX element representing the input field for adding todos.
+ */
 export default function TodoInput(props) {
     const { handleAddTodos, todoValue, setTodoValue } = props
 
